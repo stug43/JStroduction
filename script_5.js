@@ -25,5 +25,8 @@ console.log(Object.keys(hash).reduce((a,b) => parseFloat(hash[a].substr(1))<pars
 function contain_coin(b) { return (b.search(/coin/i)>=0?1:0); }
 console.log(Object.keys(hash).map(contain_coin).reduce(reducer));
 
-function isUnder6000(elem) { return (elem.values[0]<6000? elem: null); }
-console.log(hash.filter(isUnder6000()));
+function isUnder6000 {}
+
+function maxUnder6000 {}
+
+
